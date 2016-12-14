@@ -1,7 +1,7 @@
 REM http://stackoverflow.com/questions/7333232/concatenate-two-mp4-files-using-ffmpeg
 set ffmpeg=C:\Users\niliu\Documents\LNSoftware\ffmpeg-20151105-git-a8b254e-win64-static\bin\ffmpeg.exe
 
-REM python.exe JoinOrMergeVideoSource.py
+REM python.exe JoinOrMergeDozensVideoSource.py
 python.exe JoinOrMergeHundredsVideo.py
 
 set /p input=Please input the path fileslist again:

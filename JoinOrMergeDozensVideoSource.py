@@ -1,6 +1,6 @@
 import os
 files2 = os.listdir('C:\\Users\\niliu\\Downloads\\mergefils\\.')
-
+#这个文件用来处理切片ids小于100的视频
 def renameFiles():
     for filename in files2:
         basename, extension= os.path.splitext(filename)
