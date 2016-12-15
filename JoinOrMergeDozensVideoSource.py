@@ -11,12 +11,12 @@ def renameFiles():
                 #if file name end with number
                 if(int(basename[len(basename)-1:] )):
                     if(int(basename[len(basename)-2:])):
-                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-2:]+extension)
+                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-2:].lstrip()+extension)
                     else:
-                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-1:]+extension)
+                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-1:].lstrip()+extension)
                 else:
                     if(int(basename[len(basename)-2:])):
-                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-2:]+extension)
+                        os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+basename[len(basename)-2:].lstrip()+extension)
                     else:
                         os.rename('C:\\Users\\niliu\\Downloads\\mergefils\\' + filename, 'C:\\Users\\niliu\\Downloads\\mergefils\\'+'0'+extension)
             except Exception as e:
