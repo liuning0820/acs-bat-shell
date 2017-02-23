@@ -1,6 +1,7 @@
 #!/bin/bash
 #这个脚本最后都加了-y代表直接输入y的意思，效果相当于一个回车
 #添加源并更新
+# apt-cache search 搜索软件包的命令
 # Personal Package Archives (PPA) allow you to upload Ubuntu source packages to be built and 
 # published as an apt repository by Launchpad.
 # Ubuntu Make is a command line tool which allows you to download the latest 

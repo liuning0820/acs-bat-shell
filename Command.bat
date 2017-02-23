@@ -98,7 +98,6 @@ echo ie=iexplore.exe	notepad2=notepad2.exe	tt=TTPlayer
 echo cmd=cmd.exe	    build=buildsolution.bat
 echo iis=inetmgr.exe 	ppt=PowerPoint		doc=Word       		xls=Excel
 echo oc=MScommunicator  todo=TODO.txt		il=ildasm		ref=reflector
-echo wls=WinLiveWriter 
 
 title my control center
 ::color fc
@@ -176,7 +175,7 @@ goto :menu
 @REM *************************************************************************
 :svn
 set Cmd_A_Result=1
-@echo 1.svn_home    安装tortoise的目录 "%svn_home%"
+@echo 1.svn_home    锟斤拷装tortoise锟斤拷目录 "%svn_home%"
 set svn_home=C:\Program Files\TortoiseSVN\bin
 set svn_work1=C:\LNProject\SA
 set svn_work2=C:\LNProject\Mobility
