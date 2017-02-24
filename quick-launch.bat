@@ -4,12 +4,14 @@
 @echo off
 
 
-
-set vs_path="C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\"
+REM vs2015 quick launch
+set vs_path="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\"
 set vs=devenv.exe
 
-set sql_path="C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\"
+REM quick launch for microsoft sql server 2014
+set sql_path="C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\"
 set sql=Ssms.exe
+
 
 set SA_Log_path=C:\Logfiles\SA
 
@@ -57,9 +59,6 @@ set excel=EXCEL.EXE
 set ppt_path="C:\Program Files\Microsoft Office\Office12"
 set ppt=POWERPNT.EXE
 
-set oc_path="C:\Program Files\Microsoft Office Communicator"
-set oc=communicator.exe
-
 
 set ttplayer_path="C:\Program Files\TTPlayer\"
 set ttplayer=TTPlayer.exe
@@ -78,8 +77,7 @@ set root_path="C:\Documents and Settings\niliu\My Documents\Bat"
 set windbgPath= "C:\Program Files\Windows Kits\8.0\Debuggers\x86\"
 @rem call setpath.bat
 
-set sql_path="C:\Program Files\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\"
-set sql=Ssms.exe
+
 
 set Cmd_A_Result=1
 
@@ -97,7 +95,7 @@ echo sql=Ssms.exe			qq=QQ.exe
 echo ie=iexplore.exe	notepad2=notepad2.exe	tt=TTPlayer
 echo cmd=cmd.exe	    build=buildsolution.bat
 echo iis=inetmgr.exe 	ppt=PowerPoint		doc=Word       		xls=Excel
-echo oc=MScommunicator  todo=TODO.txt		il=ildasm		ref=reflector
+echo todo=TODO.txt		il=ildasm		ref=reflector
 
 title my control center
 ::color fc
@@ -361,13 +359,6 @@ goto :menu
 set Cmd_A_Result=1
 pushd %word_path%
 start %word%
-popd
-goto :menu
-
-:oc
-set Cmd_A_Result=1
-pushd %oc_path%
-start %oc%
 popd
 goto :menu
 
