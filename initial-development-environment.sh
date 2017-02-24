@@ -37,6 +37,7 @@
 ###End of install LAMP###
 
 #development environment: source control: git
+echo "***** start to install source control tool : git *****"
     sudo apt-get install git -y
 
 #development environment: build, continious integration. jenkins 
