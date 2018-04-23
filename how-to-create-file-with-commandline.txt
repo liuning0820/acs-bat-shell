@@ -1,2 +1,0 @@
-Create a file named introduction.js:
-"type NUL>introduction.js"
