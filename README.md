@@ -17,6 +17,6 @@ Example script file:
 
 #! /bin/bash
 
-...
+
 
 ```
