@@ -173,7 +173,6 @@ goto :menu
 @REM *************************************************************************
 :svn
 set Cmd_A_Result=1
-@echo 1.svn_home    ��װtortoise��Ŀ¼ "%svn_home%"
 set svn_home=C:\Program Files\TortoiseSVN\bin
 set svn_work1=C:\LNProject\SA
 set svn_work2=C:\LNProject\Mobility
