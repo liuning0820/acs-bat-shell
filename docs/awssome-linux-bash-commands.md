@@ -16,6 +16,14 @@ $ find . -type f -mmin -10
 
 [Find 参考链接](http://www.ruanyifeng.com/blog/2009/10/5_ways_to_search_for_files_using_the_terminal.html)
 
+## **Locate** Find File
+
+```sh
+
+locate the-file-name
+
+```
+
 ## **Diff** 文件比较
 
 Usage: diff [OPTION]... FILES
@@ -29,3 +37,44 @@ diff -y file1.txt file2.txt
 
 ```
 
+## **Less**
+
+Usage: less [option] filename
+
+- Read large text files without cluttering your terminal screen
+- Search for text within the file
+- Monitor file in real time
+
+### Options with less
+
+```sh
+
+# Display line numbers with less
+less -N <filename>
+
+# Monitor files in real time with less
+less +F <filename>
+
+
+# Using less command with pipes
+netstat | less
+
+
+```
+
+### Operation in less
+
+- Up arrow – Move one line up
+- Down arrow – Move one line down
+- Space or PgDn – Move one page down
+- b or PgUp – Move one page up
+- g – Move to the beginning of the file
+- G – Move to the end of the file
+- ng – Move to the nth line
+
+```sh
+
+# Finding text in less
+/pattern
+
+```
