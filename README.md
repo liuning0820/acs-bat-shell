@@ -1,5 +1,7 @@
 # acs-bat-bash-shell
 
+[![Build Status](https://travis-ci.org/liuning0820/acs-bat-shell.svg?branch=master)](https://travis-ci.org/liuning0820/acs-bat-shell)
+
 ACS working style (a, means automatic) related bat, bash, shell to effective my daily work.
 
 https://www.windows-commandline.com/category/files/
