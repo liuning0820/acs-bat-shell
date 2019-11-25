@@ -4,7 +4,8 @@ CMD           | Bash        | Description
 ------------- | ------------| -------------
 type          | cat         |
 copy          | cp          |
-[where](#where)         | find or [locate](#locate)      | Locate file
+[where](#where)         | whereis or find or [locate](#locate)      | Locate file
+rename        | mv          | rename a file
 
 ## Installation
 
